@@ -1,6 +1,6 @@
 import { JetBrains_Mono } from "next/font/google";
 import "./globals.css";
-import { Weight } from "lucide-react";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 // Components
 import Header from "@/components/Header";
@@ -22,6 +22,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={jetbrainsMono.variable}>
+        <SpeedInsights/>
         <Header />
         <StairTransition />
         <PageTransition>
