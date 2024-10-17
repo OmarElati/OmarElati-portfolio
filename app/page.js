@@ -11,7 +11,7 @@ import Stats from "@/components/Stats";
 const Home = () => {
   const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = '/assets/resume/CV.pdf';
+    link.href = '/assets/resume/CV.pdSoftware Engineer - Omar Elati.pdf';
     link.download = 'Omar_Elati_CV.pdf';
     link.click();
   };
