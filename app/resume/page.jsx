@@ -61,19 +61,49 @@ const experience = {
   description: 'I have 5 years of experience in web development. I have worked with startups, agencies, and established companies to build responsive websites and user-friendly applications.',
   items: [
     {
+      campany: "TopManager",
+      position: "PFE Fullstack Project (MERN)",
+      duration: "Jul 2024 - Oct 2024",
+    },
+    {
+      campany: "AirBnB Clone",
+      position: "Associated with Holberton School",
+      duration: "May 2024 - May 2024",
+    },
+    {
+      campany: "Files Manager",
+      position: "Associated with Holberton School",
+      duration: "Apr 2024 - Apr 2024",
+    },
+    {
+      campany: "Sivarus - E-commerce website",
+      position: "Freelance Web Developer",
+      duration: "Nov 2023 - Jan 2024",
+    },
+    {
+      campany: "AYPA",
+      position: "Full Stack Developer Intren",
+      duration: "Jul 2023 - September 2023",
+    },
+    {
+      campany: "TeamTracker",
+      position: "Associated with Holberton School",
+      duration: "May 2023 - Jul 2023",
+    },
+    {
       campany: "E-commerce Startup",
       position: "Freelance Web Developer",
       duration: "February 2024 - April 2024",
     },
     {
-      campany: "E-commerce Startup",
-      position: "Freelance Web Developer",
-      duration: "October 2023 - January 2024",
+      campany: "Simple Shell",
+      position: "Associated with Holberton School",
+      duration: "Dec 2022 - Dec 2022",
     },
     {
-      campany: "AYPA",
-      position: "Full Stack Developer Intren",
-      duration: "June 2023 - September 2023",
+      campany: "Printf C programming function",
+      position: "Associated with Holberton School",
+      duration: "Nov 2022 - Nov 2022",
     },
   ]
 };
@@ -86,18 +116,18 @@ const education = {
   items: [
     {
       institution: "Holberton School",
-      degree: "Software Engineering",
-      duration: "2023",
+      degree: "Full Stack Development",
+      duration: "2023 - 2024",
+    },
+    {
+      institution: "Holberton School",
+      degree: "Foundations",
+      duration: "2022 - 2023",
     },
     {
       institution: "Faculty of Sciences of Monastir",
       degree: "license in physics and energy",
       duration: "En progress",
-    },
-    {
-      institution: "Holberton School",
-      degree: "Full Stack Development",
-      duration: "2024",
     },
   ]
 };
