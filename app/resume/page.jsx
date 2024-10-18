@@ -33,7 +33,7 @@ const about = {
     },
     {
       fieldName: "Email",
-      fieldValue: "5796@holbertonstudents.com",
+      fieldValue: "elatti.omar@gmail.com",
     },
     {
       fieldName: "Nationality",
