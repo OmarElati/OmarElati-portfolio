@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -18,47 +18,58 @@ import {
 import Link from "next/link";
 import Image from "next/image";
 import WorkSliderBtns from "@/components/WorkSliderBtns";
+import { fetchRepos } from "@/lib/fetchRepos";
 
-const projects = [
-  {
-    num: "01",
-    category: "frontend",
-    title: "Project 01",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    stack: [{ name: "Html 5" }, {name: "Css 3"}, {name: "Javascript"}],
-    image: "/assets/work/thumb1.png",
-    live: "",
-    github: "",
-  },
-  {
-    num: "02",
-    category: "fullstack",
-    title: "Project 02",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    stack: [{ name: "Next.js" }, { name: "Tailwind.css" }, { name: "Node.js" }],
-    image: "/assets/work/thumb2.png",
-    live: "",
-    github: "",
-  },
-  {
-    num: "03",
-    category: "frontend",
-    title: "Project 03",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    stack: [{ name: "Next.js" }, { name: "tailwind.css" }],
-    image: "/assets/work/thumb3.png",
-    live: "",
-    github: "",
-  },
-]
+// const projects = [
+//   {
+//     num: "01",
+//     category: "frontend",
+//     title: "Project 01",
+//     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+//     stack: [{ name: "Html 5" }, {name: "Css 3"}, {name: "Javascript"}],
+//     image: "/assets/work/thumb1.png",
+//     live: "",
+//     github: "",
+//   },
+//   {
+//     num: "02",
+//     category: "fullstack",
+//     title: "Project 02",
+//     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+//     stack: [{ name: "Next.js" }, { name: "Tailwind.css" }, { name: "Node.js" }],
+//     image: "/assets/work/thumb2.png",
+//     live: "",
+//     github: "",
+//   },
+//   {
+//     num: "03",
+//     category: "frontend",
+//     title: "Project 03",
+//     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+//     stack: [{ name: "Next.js" }, { name: "tailwind.css" }],
+//     image: "/assets/work/thumb3.png",
+//     live: "",
+//     github: "",
+//   },
+// ]
 
 const Work = () => {
-  const [project, setProject] = useState(projects[0]);
+  const [project, setProject] = useState(null);
+  const [projects, setProjects] = useState([]);
+
+  useEffect(() => {
+    const fetchProjectData = async () => {
+      const formattedProjects = await fetchRepos();
+      console.log(formattedProjects);
+      setProjects(formattedProjects);
+      setProject(formattedProjects[0]);
+    };
+  
+    fetchProjectData();
+  }, []);
 
   const handleSlideChange = (swiper) => {
-    // get the curent slide index
     const currentIndex = swiper.activeIndex;
-    // update project state based on the curent slide index
     setProject(projects[currentIndex]);
   }
 
@@ -67,6 +78,7 @@ const Work = () => {
       <div className="container mx-auto">
         <div className="flex flex-col xl:flex-row xl:gap-[30px]">
           <div className="w-full xl:w-[50%] xl:h-[460px] flex flex-col xl:justify-center order-2 xl:order-none">
+          {project && (
             <div className="flex flex-col gap-[30px] h-[50%]">
               {/* outline num */}
               <div className="text-8xl leading-none font-extrabold text-transparent text-outline">
@@ -82,15 +94,21 @@ const Work = () => {
               </p>
               {/* stack */}
               <ul className="flex gap-4">
-                {project.stack.map((item, index) => {
+                {/* {project.stack.map((item, index) => {
                   return (
                     <li key={index} className="text-xl text-accent">
                       {item.name}
-                      {/* remove the last comma */}
                       {index !== project.stack.length - 1 && ","}
                     </li>
                   );
-                })}
+                })} */}
+                <li className="text-xl text-accent">{project.title}</li>
+                {project.stack.map((item, index) => (
+                  <li key={index} className="text-xl text-white/60">
+                    {item.name}
+                    {index !== project.stack.length - 1 && ','}
+                  </li>
+                ))}
               </ul>
               {/* border */}
               <div className="border border-white/20"></div>
@@ -124,6 +142,7 @@ const Work = () => {
                 </Link>
               </div>
             </div>
+          )}
           </div>
           <div className="w-full xl:w-[50%]">
             <Swiper spaceBetween={30} slidesPerView={1} className="xl:h-[520px] mb-12" onSlideChange={handleSlideChange} >
