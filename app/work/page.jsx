@@ -20,39 +20,6 @@ import Image from "next/image";
 import WorkSliderBtns from "@/components/WorkSliderBtns";
 import { fetchRepos } from "@/lib/fetchRepos";
 
-// const projects = [
-//   {
-//     num: "01",
-//     category: "frontend",
-//     title: "Project 01",
-//     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-//     stack: [{ name: "Html 5" }, {name: "Css 3"}, {name: "Javascript"}],
-//     image: "/assets/work/thumb1.png",
-//     live: "",
-//     github: "",
-//   },
-//   {
-//     num: "02",
-//     category: "fullstack",
-//     title: "Project 02",
-//     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-//     stack: [{ name: "Next.js" }, { name: "Tailwind.css" }, { name: "Node.js" }],
-//     image: "/assets/work/thumb2.png",
-//     live: "",
-//     github: "",
-//   },
-//   {
-//     num: "03",
-//     category: "frontend",
-//     title: "Project 03",
-//     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-//     stack: [{ name: "Next.js" }, { name: "tailwind.css" }],
-//     image: "/assets/work/thumb3.png",
-//     live: "",
-//     github: "",
-//   },
-// ]
-
 const Work = () => {
   const [project, setProject] = useState(null);
   const [projects, setProjects] = useState([]);
@@ -89,7 +56,7 @@ const Work = () => {
                 {project.category}
               </h2>
               {/* project description */}
-              <p className="text-white/60">
+              <p className="text-white/60 text-xs">
                 {project.description}
               </p>
               {/* stack */}
@@ -102,9 +69,9 @@ const Work = () => {
                     </li>
                   );
                 })} */}
-                <li className="text-xl text-accent">{project.title}</li>
+                <li className="text-xs text-accent">{project.title}</li>
                 {project.stack.map((item, index) => (
-                  <li key={index} className="text-xl text-white/60">
+                  <li key={index} className="text-xs text-white/60">
                     {item.name}
                     {index !== project.stack.length - 1 && ','}
                   </li>
@@ -149,12 +116,12 @@ const Work = () => {
               {projects.map((project, index) => {
                 return (
                   <SwiperSlide key={index} className="w-full">
-                    <div className="h-[460px] relative group flex justify-center items-center bg-pink-50/20">
+                    <div className="h-[300px] sm:h-[460px] xl:h-[520px] relative group flex justify-center items-center bg-pink-50/20">
                       {/* overlay */}
                       <div className="absolute top-0 bottom-0 w-full h-full bg-black/10 z-10"></div>
                       {/* image */}
                       <div className="realtive w-full h-full">
-                        <Image src={project.image} fill className="object-cover" alt="" />
+                        <Image src={project.image} fill className="object-cover w-full h-auto sm:h-[300px] md:h-[400px] lg:h-[460px]" alt="Project Image" />
                       </div>
                     </div>
                   </SwiperSlide>

@@ -1,10 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     images: {
-        domains: [
-            'raw.githubusercontent.com',
-            'opengraph.githubassets.com'
-        ],
+        // domains: [
+        //     'raw.githubusercontent.com',
+        //     'opengraph.githubassets.com'
+        // ],
         remotePatterns: [
             {
                 protocol: 'https',
