@@ -58,7 +58,7 @@ const about = {
 const experience = {
   icon: '/assets/resume/badge.svg',
   title: ' My Experience',
-  description: 'I have 5 years of experience in web development. I have worked with startups, agencies, and established companies to build responsive websites and user-friendly applications.',
+  description: 'I have +2 years of experience in web development. I have worked with startups, agencies, and established companies to build responsive websites and user-friendly applications.',
   items: [
     {
       campany: "TopManager",
@@ -112,7 +112,7 @@ const experience = {
 const education = {
   icon: '/assets/resume/cap.svg',
   title: ' My Education',
-  description: 'I have 5 years of experience in web development. I have worked with startups, agencies, and established companies to build responsive websites and user-friendly applications.',
+  description: 'I have +2 years of experience in web development. I have worked with startups, agencies, and established companies to build responsive websites and user-friendly applications.',
   items: [
     {
       institution: "Holberton School",
