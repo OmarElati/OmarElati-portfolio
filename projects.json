@@ -1,0 +1,740 @@
+[
+  {
+    "num": "01",
+    "category": "unknown",
+    "title": "scrapy spiders",
+    "description": "Some Web-Scraping/Web-Crawling projects using python  Scrapy  Scrape and Crawled data from several websites and save data in JSON, CSV, XML format using python Scrapy framework....",
+    "stack": [
+      {
+        "name": "Python"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/OmarElati/scrapy-spiders/main/image.png",
+    "live": "https://omarelati.github.io/scrapy-spiders/",
+    "github": "https://github.com/OmarElati/scrapy-spiders"
+  },
+  {
+    "num": "02",
+    "category": "frontend",
+    "title": "recipe page challenge",
+    "description": "Frontend Mentor - Recipe page    Welcome! ð...",
+    "stack": [
+      {
+        "name": "HTML"
+      },
+      {
+        "name": "CSS"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/OmarElati/recipe-page-challenge/main/preview.jpg",
+    "live": "https://omarelati.github.io/recipe-page-challenge/",
+    "github": "https://github.com/OmarElati/recipe-page-challenge"
+  },
+  {
+    "num": "03",
+    "category": "frontend",
+    "title": "social profile card",
+    "description": "Frontend Mentor - Social links profile    Welcome! ð...",
+    "stack": [
+      {
+        "name": "HTML"
+      },
+      {
+        "name": "CSS"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/OmarElati/social-profile-card/main/preview.jpg",
+    "live": "https://omarelati.github.io/social-profile-card/",
+    "github": "https://github.com/OmarElati/social-profile-card"
+  },
+  {
+    "num": "04",
+    "category": "frontend",
+    "title": "blog preview card",
+    "description": "Frontend Mentor - Blog preview card    Welcome! ð...",
+    "stack": [
+      {
+        "name": "HTML"
+      },
+      {
+        "name": "CSS"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/OmarElati/blog-preview-card/main/preview.jpg",
+    "live": "https://omarelati.github.io/blog-preview-card/",
+    "github": "https://github.com/OmarElati/blog-preview-card"
+  },
+  {
+    "num": "05",
+    "category": "frontend",
+    "title": "qr code challenge",
+    "description": "Frontend Mentor - QR code component    Welcome! ð...",
+    "stack": [
+      {
+        "name": "HTML"
+      },
+      {
+        "name": "CSS"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/OmarElati/qr-code-challenge/main/preview.jpg",
+    "live": "https://omarelati.github.io/qr-code-challenge/",
+    "github": "https://github.com/OmarElati/qr-code-challenge"
+  },
+  {
+    "num": "06",
+    "category": "unknown",
+    "title": "holbertonschool holbegram",
+    "description": "ï»¿holbertonschool-holbegram...",
+    "stack": [
+      {
+        "name": "HTML"
+      }
+    ],
+    "image": "https://opengraph.githubassets.com/1/OmarElati/holbertonschool-holbegram",
+    "live": "https://omarelati.github.io/holbertonschool-holbegram/",
+    "github": "https://github.com/OmarElati/holbertonschool-holbegram"
+  },
+  {
+    "num": "07",
+    "category": "unknown",
+    "title": "holbertonschool web dart",
+    "description": "Holberton School Web Dart...",
+    "stack": [
+      {
+        "name": "Unknown"
+      }
+    ],
+    "image": "https://opengraph.githubassets.com/1/OmarElati/holbertonschool-web_dart",
+    "live": "https://omarelati.github.io/holbertonschool-web_dart/",
+    "github": "https://github.com/OmarElati/holbertonschool-web_dart"
+  },
+  {
+    "num": "08",
+    "category": "unknown",
+    "title": "holbertonschool cinema guru",
+    "description": "Getting Started with Create React App  This project was bootstrapped with .  Available Scripts...",
+    "stack": [
+      {
+        "name": "HTML"
+      },
+      {
+        "name": "CSS"
+      },
+      {
+        "name": "JavaScript"
+      },
+      {
+        "name": "Node.js"
+      },
+      {
+        "name": "Express.js"
+      }
+    ],
+    "image": "https://opengraph.githubassets.com/1/OmarElati/holbertonschool-cinema-guru",
+    "live": "https://omarelati.github.io/holbertonschool-cinema-guru/",
+    "github": "https://github.com/OmarElati/holbertonschool-cinema-guru"
+  },
+  {
+    "num": "09",
+    "category": "frontend",
+    "title": "holbertonschool web react",
+    "description": "holbertonschool-web_react...",
+    "stack": [
+      {
+        "name": "JavaScript"
+      },
+      {
+        "name": "HTML"
+      },
+      {
+        "name": "Node.js"
+      },
+      {
+        "name": "Express.js"
+      },
+      {
+        "name": "CSS"
+      },
+      {
+        "name": "React"
+      },
+      {
+        "name": "TypeScript"
+      }
+    ],
+    "image": "https://opengraph.githubassets.com/1/OmarElati/holbertonschool-web_react",
+    "live": "https://omarelati.github.io/holbertonschool-web_react/",
+    "github": "https://github.com/OmarElati/holbertonschool-web_react"
+  },
+  {
+    "num": "10",
+    "category": "backend",
+    "title": "holbertonschool files manager",
+    "description": "Files manager  This project is a summary of this back-end trimester: authentication, NodeJS, MongoDB, Redis, pagination and background processing.  The objective is to build a simple platform to uploa...",
+    "stack": [
+      {
+        "name": "JavaScript"
+      },
+      {
+        "name": "Node.js"
+      },
+      {
+        "name": "Express.js"
+      }
+    ],
+    "image": "https://opengraph.githubassets.com/1/OmarElati/holbertonschool-files_manager",
+    "live": "https://omarelati.github.io/holbertonschool-files_manager/",
+    "github": "https://github.com/OmarElati/holbertonschool-files_manager"
+  },
+  {
+    "num": "11",
+    "category": "unknown",
+    "title": "holbertonschool smiling school javascript",
+    "description": "Holberton Smiling School (Bootstrap Project)  These group of web pages were coded from scratch with the help of the Boostrap Framework and based on some design models given on Figma.  ...",
+    "stack": [
+      {
+        "name": "HTML"
+      },
+      {
+        "name": "CSS"
+      }
+    ],
+    "image": "https://opengraph.githubassets.com/1/OmarElati/holbertonschool-smiling-school-javascript",
+    "live": "https://omarelati.github.io/holbertonschool-smiling-school-javascript/",
+    "github": "https://github.com/OmarElati/holbertonschool-smiling-school-javascript"
+  },
+  {
+    "num": "12",
+    "category": "unknown",
+    "title": "holbertonschool web back end",
+    "description": "Holberton School Web Backend  Projects   [x] Python - Variable Annotations (1)...",
+    "stack": [
+      {
+        "name": "Python"
+      },
+      {
+        "name": "Django"
+      },
+      {
+        "name": "JavaScript"
+      },
+      {
+        "name": "Node.js"
+      },
+      {
+        "name": "Flask"
+      },
+      {
+        "name": "Express.js"
+      },
+      {
+        "name": "HTML"
+      }
+    ],
+    "image": "https://opengraph.githubassets.com/1/OmarElati/holbertonschool-web_back_end",
+    "live": "https://omarelati.github.io/holbertonschool-web_back_end/",
+    "github": "https://github.com/OmarElati/holbertonschool-web_back_end"
+  },
+  {
+    "num": "13",
+    "category": "unknown",
+    "title": "tech interview handbook",
+    "description": "<h1 align=\"center\">Tech Interview Handbook</h1>  <div align=\"center\">   <a href=\"https://www.techinterviewhandbook.org/\">     <img src=\"assets/logo.svg\" alt=\"Tech Interview Handbook\" width=\"400\" />...",
+    "stack": [
+      {
+        "name": "JavaScript"
+      },
+      {
+        "name": "React"
+      },
+      {
+        "name": "Node.js"
+      },
+      {
+        "name": "CSS"
+      },
+      {
+        "name": "TypeScript"
+      },
+      {
+        "name": "Tailwind CSS"
+      },
+      {
+        "name": "HTML"
+      },
+      {
+        "name": "Python"
+      },
+      {
+        "name": "Express.js"
+      }
+    ],
+    "image": "https://opengraph.githubassets.com/1/OmarElati/tech-interview-handbook",
+    "live": "https://www.techinterviewhandbook.org",
+    "github": "https://github.com/OmarElati/tech-interview-handbook"
+  },
+  {
+    "num": "14",
+    "category": "unknown",
+    "title": "holbertonschool Fun with CSS",
+    "description": "holbertonschool-Fun-with-CSS...",
+    "stack": [
+      {
+        "name": "HTML"
+      },
+      {
+        "name": "CSS"
+      }
+    ],
+    "image": "https://opengraph.githubassets.com/1/OmarElati/holbertonschool-Fun-with-CSS",
+    "live": "https://omarelati.github.io/holbertonschool-Fun-with-CSS/",
+    "github": "https://github.com/OmarElati/holbertonschool-Fun-with-CSS"
+  },
+  {
+    "num": "15",
+    "category": "unknown",
+    "title": "holbertonschool headphones",
+    "description": "holbertonschool-headphones  Project Description - This is a fullstack web specialization project at Holberton school. - The goal of this project is a implement a Figma design template in HTML and CSS ...",
+    "stack": [
+      {
+        "name": "HTML"
+      },
+      {
+        "name": "CSS"
+      }
+    ],
+    "image": "https://opengraph.githubassets.com/1/OmarElati/holbertonschool-headphones",
+    "live": "https://omarelati.github.io/holbertonschool-headphones/",
+    "github": "https://github.com/OmarElati/holbertonschool-headphones"
+  },
+  {
+    "num": "16",
+    "category": "unknown",
+    "title": "holbertonschool interview",
+    "description": "holbertonschool-interview...",
+    "stack": [
+      {
+        "name": "Python"
+      },
+      {
+        "name": "Flask"
+      },
+      {
+        "name": "JavaScript"
+      }
+    ],
+    "image": "https://opengraph.githubassets.com/1/OmarElati/holbertonschool-interview",
+    "live": "https://omarelati.github.io/holbertonschool-interview/",
+    "github": "https://github.com/OmarElati/holbertonschool-interview"
+  },
+  {
+    "num": "17",
+    "category": "dataScience",
+    "title": "holbertonschool Markdown2HTML",
+    "description": "holbertonschool-Markdown2HTML...",
+    "stack": [
+      {
+        "name": "Unknown"
+      }
+    ],
+    "image": "https://opengraph.githubassets.com/1/OmarElati/holbertonschool-Markdown2HTML",
+    "live": "https://omarelati.github.io/holbertonschool-Markdown2HTML/",
+    "github": "https://github.com/OmarElati/holbertonschool-Markdown2HTML"
+  },
+  {
+    "num": "18",
+    "category": "unknown",
+    "title": "holbertonschool web development",
+    "description": "Holberton School Web Development Welcome to the Holberton School Web Development repository!  -    - ...",
+    "stack": [
+      {
+        "name": "HTML"
+      },
+      {
+        "name": "CSS"
+      }
+    ],
+    "image": "https://opengraph.githubassets.com/1/OmarElati/holbertonschool-web-development",
+    "live": "https://omarelati.github.io/holbertonschool-web-development/",
+    "github": "https://github.com/OmarElati/holbertonschool-web-development"
+  },
+  {
+    "num": "19",
+    "category": "unknown",
+    "title": "TeamTracker",
+    "description": "Project Name  TeamTrack - Project Management Tool  Description...",
+    "stack": [
+      {
+        "name": "HTML"
+      },
+      {
+        "name": "Python"
+      },
+      {
+        "name": "CSS"
+      },
+      {
+        "name": "JavaScript"
+      },
+      {
+        "name": "Flask"
+      }
+    ],
+    "image": "https://opengraph.githubassets.com/1/OmarElati/TeamTracker",
+    "live": "https://omarelati.github.io/TeamTracker/",
+    "github": "https://github.com/OmarElati/TeamTracker"
+  },
+  {
+    "num": "20",
+    "category": "unknown",
+    "title": "holbertonschool system engineering devops",
+    "description": "Holberton-system_engineering-devops            > Low level and High level programming projects for DevOps implementations...",
+    "stack": [
+      {
+        "name": "Python"
+      },
+      {
+        "name": "Flask"
+      }
+    ],
+    "image": "https://opengraph.githubassets.com/1/OmarElati/holbertonschool-system_engineering-devops",
+    "live": "https://omarelati.github.io/holbertonschool-system_engineering-devops/",
+    "github": "https://github.com/OmarElati/holbertonschool-system_engineering-devops"
+  },
+  {
+    "num": "21",
+    "category": "unknown",
+    "title": "holbertonschool network",
+    "description": "holbertonschool-network...",
+    "stack": [
+      {
+        "name": "Unknown"
+      }
+    ],
+    "image": "https://opengraph.githubassets.com/1/OmarElati/holbertonschool-network",
+    "live": "https://omarelati.github.io/holbertonschool-network/",
+    "github": "https://github.com/OmarElati/holbertonschool-network"
+  },
+  {
+    "num": "22",
+    "category": "devops",
+    "title": "holbertonschool validation",
+    "description": "holbertonschool-validation...",
+    "stack": [
+      {
+        "name": "CSS"
+      },
+      {
+        "name": "HTML"
+      },
+      {
+        "name": "Node.js"
+      }
+    ],
+    "image": "https://opengraph.githubassets.com/1/OmarElati/holbertonschool-validation",
+    "live": "https://omarelati.github.io/holbertonschool-validation/",
+    "github": "https://github.com/OmarElati/holbertonschool-validation"
+  },
+  {
+    "num": "23",
+    "category": "dataScience",
+    "title": "holbertonschool AirBnB clone v4",
+    "description": "<div align=\"center\">   <h1>HBNB - The Console <img src=\"https://i.imgur.com/elr4ah9.png\" width=55 align=center> </h1> </div>  <img align=\"center\" src=\"https://i.imgur.com/MQq3ABc.png\" alt=\"Logo\">...",
+    "stack": [
+      {
+        "name": "Python"
+      },
+      {
+        "name": "Django"
+      },
+      {
+        "name": "JavaScript"
+      },
+      {
+        "name": "CSS"
+      },
+      {
+        "name": "HTML"
+      }
+    ],
+    "image": "https://opengraph.githubassets.com/1/OmarElati/holbertonschool-AirBnB_clone_v4",
+    "live": "https://omarelati.github.io/holbertonschool-AirBnB_clone_v4/",
+    "github": "https://github.com/OmarElati/holbertonschool-AirBnB_clone_v4"
+  },
+  {
+    "num": "24",
+    "category": "frontend",
+    "title": "Clockwise",
+    "description": "Clockwise  Clockwise is a simple clock web application built with HTML, CSS, and JavaScript. It displays the current time and updates every second to reflect the current time. Installation ...",
+    "stack": [
+      {
+        "name": "CSS"
+      },
+      {
+        "name": "JavaScript"
+      },
+      {
+        "name": "HTML"
+      }
+    ],
+    "image": "https://opengraph.githubassets.com/1/OmarElati/Clockwise",
+    "live": "https://omarelati.github.io/Clockwise/",
+    "github": "https://github.com/OmarElati/Clockwise"
+  },
+  {
+    "num": "25",
+    "category": "backend",
+    "title": "swapi",
+    "description": "SWAPI The Star Wars API  NO LONGER MAINTAINED! ...",
+    "stack": [
+      {
+        "name": "Python"
+      },
+      {
+        "name": "CSS"
+      },
+      {
+        "name": "HTML"
+      }
+    ],
+    "image": "https://opengraph.githubassets.com/1/OmarElati/swapi",
+    "live": "https://phalt.github.io/pokeapi-and-swapi-going-forward/",
+    "github": "https://github.com/OmarElati/swapi"
+  },
+  {
+    "num": "26",
+    "category": "dataScience",
+    "title": "holbertonschool AirBnB clone v3",
+    "description": "AirBnB Clone - The Console The console is the first segment of the AirBnB project at Holberton School that will collectively cover fundamental concepts of higher level programming. The goal of AirBnB ...",
+    "stack": [
+      {
+        "name": "Python"
+      },
+      {
+        "name": "Django"
+      },
+      {
+        "name": "CSS"
+      },
+      {
+        "name": "HTML"
+      }
+    ],
+    "image": "https://opengraph.githubassets.com/1/OmarElati/holbertonschool-AirBnB_clone_v3",
+    "live": "https://omarelati.github.io/holbertonschool-AirBnB_clone_v3/",
+    "github": "https://github.com/OmarElati/holbertonschool-AirBnB_clone_v3"
+  },
+  {
+    "num": "27",
+    "category": "unknown",
+    "title": "holbertonschool back end",
+    "description": "holbertonschool-back-end...",
+    "stack": [
+      {
+        "name": "Python"
+      }
+    ],
+    "image": "https://opengraph.githubassets.com/1/OmarElati/holbertonschool-back-end",
+    "live": "https://omarelati.github.io/holbertonschool-back-end/",
+    "github": "https://github.com/OmarElati/holbertonschool-back-end"
+  },
+  {
+    "num": "28",
+    "category": "dataScience",
+    "title": "holbertonschool AirBnB clone v2",
+    "description": "<center> <h1>HBNB - The Console</h1> </center>  This repository contains the initial stage of a student project to build a clone of the AirBnB website. This stage implements a backend interface, or co...",
+    "stack": [
+      {
+        "name": "Python"
+      },
+      {
+        "name": "HTML"
+      },
+      {
+        "name": "CSS"
+      }
+    ],
+    "image": "https://opengraph.githubassets.com/1/OmarElati/holbertonschool-AirBnB_clone_v2",
+    "live": "https://omarelati.github.io/holbertonschool-AirBnB_clone_v2/",
+    "github": "https://github.com/OmarElati/holbertonschool-AirBnB_clone_v2"
+  },
+  {
+    "num": "29",
+    "category": "unknown",
+    "title": "holbertonschool web front end",
+    "description": "holbertonschool-web_front_end...",
+    "stack": [
+      {
+        "name": "HTML"
+      },
+      {
+        "name": "CSS"
+      },
+      {
+        "name": "Node.js"
+      },
+      {
+        "name": "JavaScript"
+      },
+      {
+        "name": "Express.js"
+      }
+    ],
+    "image": "https://opengraph.githubassets.com/1/OmarElati/holbertonschool-web_front_end",
+    "live": "https://omarelati.github.io/holbertonschool-web_front_end/",
+    "github": "https://github.com/OmarElati/holbertonschool-web_front_end"
+  },
+  {
+    "num": "30",
+    "category": "unknown",
+    "title": "content",
+    "description": "Welcome to MDN Web Docs    [MDN Web Docs][] is an open-source, collaborative project that documents web technologies including CSS, HTML, JavaScript, and Web APIs....",
+    "stack": [
+      {
+        "name": "Node.js"
+      }
+    ],
+    "image": "https://opengraph.githubassets.com/1/OmarElati/content",
+    "live": "https://developer.mozilla.org",
+    "github": "https://github.com/OmarElati/content"
+  },
+  {
+    "num": "31",
+    "category": "dataScience",
+    "title": "holbertonschool AirBnB clone",
+    "description": "holbertonschool-AirBnB_clone.git  Description  This project is a command-line interface for an AirBnB clone. It allows users to manage objects, such as users, places, amenities, and more. The command ...",
+    "stack": [
+      {
+        "name": "Python"
+      },
+      {
+        "name": "HTML"
+      },
+      {
+        "name": "CSS"
+      }
+    ],
+    "image": "https://opengraph.githubassets.com/1/OmarElati/holbertonschool-AirBnB_clone",
+    "live": "https://omarelati.github.io/holbertonschool-AirBnB_clone/",
+    "github": "https://github.com/OmarElati/holbertonschool-AirBnB_clone"
+  },
+  {
+    "num": "32",
+    "category": "unknown",
+    "title": "holbertonschool higher level programming",
+    "description": "Introduction  A high-level language is a programming language designed to simplify computer programming. It is \"high-level\" since it is several steps removed from the actual code run on a computer's p...",
+    "stack": [
+      {
+        "name": "JavaScript"
+      },
+      {
+        "name": "Python"
+      },
+      {
+        "name": "Flask"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/OmarElati/holbertonschool-higher_level_programming/main/Cover.png",
+    "live": "https://omarelati.github.io/holbertonschool-higher_level_programming/",
+    "github": "https://github.com/OmarElati/holbertonschool-higher_level_programming"
+  },
+  {
+    "num": "33",
+    "category": "unknown",
+    "title": "holbertonschool binary trees",
+    "description": "holbertonschool-binary_trees  Welcome to the binary trees repository for Holberton School! This repository contains projects and exercises that cover the fundamental concepts of binary trees, such as ...",
+    "stack": [
+      {
+        "name": "Unknown"
+      }
+    ],
+    "image": "https://opengraph.githubassets.com/1/OmarElati/holbertonschool-binary_trees",
+    "live": "https://omarelati.github.io/holbertonschool-binary_trees/",
+    "github": "https://github.com/OmarElati/holbertonschool-binary_trees"
+  },
+  {
+    "num": "34",
+    "category": "unknown",
+    "title": "holbertonschool monty",
+    "description": "Stacks, Queues - LIFO, FIFO...",
+    "stack": [
+      {
+        "name": "Unknown"
+      }
+    ],
+    "image": "https://opengraph.githubassets.com/1/OmarElati/holbertonschool-monty",
+    "live": "https://omarelati.github.io/holbertonschool-monty/",
+    "github": "https://github.com/OmarElati/holbertonschool-monty"
+  },
+  {
+    "num": "35",
+    "category": "unknown",
+    "title": "simple shell",
+    "description": "Simple Shell - C programming language  This simple Shell - Shell - is a programm that provides an interface for users to get access to the kernel's services. In other words the  Shell works as a comma...",
+    "stack": [
+      {
+        "name": "Unknown"
+      }
+    ],
+    "image": "https://opengraph.githubassets.com/1/OmarElati/simple_shell",
+    "live": "https://omarelati.github.io/simple_shell/",
+    "github": "https://github.com/OmarElati/simple_shell"
+  },
+  {
+    "num": "36",
+    "category": "unknown",
+    "title": "printf",
+    "description": "Printf  is a standard library function that prints a formatted strings as console output Usage ...",
+    "stack": [
+      {
+        "name": "Unknown"
+      }
+    ],
+    "image": "https://opengraph.githubassets.com/1/OmarElati/printf",
+    "live": "https://omarelati.github.io/printf/",
+    "github": "https://github.com/OmarElati/printf"
+  },
+  {
+    "num": "37",
+    "category": "unknown",
+    "title": "holbertonschool low level programming",
+    "description": "holberton school c  Low Level Programming & Algorithms  welcome to my low level C programming experience at Holberthon School. Here I Will be documenting what i have  learning througs a series of proj...",
+    "stack": [
+      {
+        "name": "Unknown"
+      }
+    ],
+    "image": "https://opengraph.githubassets.com/1/OmarElati/holbertonschool-low_level_programming",
+    "live": "https://omarelati.github.io/holbertonschool-low_level_programming/",
+    "github": "https://github.com/OmarElati/holbertonschool-low_level_programming"
+  },
+  {
+    "num": "38",
+    "category": "unknown",
+    "title": "holbertonschool shell",
+    "description": "holbertonschool-shell...",
+    "stack": [
+      {
+        "name": "Unknown"
+      }
+    ],
+    "image": "https://opengraph.githubassets.com/1/OmarElati/holbertonschool-shell",
+    "live": "https://omarelati.github.io/holbertonschool-shell/",
+    "github": "https://github.com/OmarElati/holbertonschool-shell"
+  },
+  {
+    "num": "39",
+    "category": "unknown",
+    "title": "holbertonschool zero day",
+    "description": "My README...",
+    "stack": [
+      {
+        "name": "Unknown"
+      }
+    ],
+    "image": "https://opengraph.githubassets.com/1/OmarElati/holbertonschool-zero_day",
+    "live": "https://omarelati.github.io/holbertonschool-zero_day/",
+    "github": "https://github.com/OmarElati/holbertonschool-zero_day"
+  }
+]

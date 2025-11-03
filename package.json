@@ -2,6 +2,7 @@
   "name": "omarelati_reactdev",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -24,6 +25,7 @@
     "framer-motion": "^11.3.30",
     "lucide-react": "^0.436.0",
     "next": "14.2.6",
+    "node-fetch": "^2.6.7",
     "nodemailer": "^6.9.16",
     "react": "^18",
     "react-countup": "^6.5.3",
